@@ -1,0 +1,180 @@
+.body {
+margin:0;
+font-family: 'Roboto',sans-serif;
+display:flex;
+flex-direction:column;
+min-height:100%;
+}
+
+.nav-item {
+letter-spacing : .2em;
+font-size :14px;
+text-transform :uppercase;
+}
+.dropdown-item {
+letter-spacing : .2em;
+font-size :14px;
+text-transform :uppercase;
+}
+.my_footer {
+background-color: #d0d0d0;
+height : 40px;
+margin-top:auto;
+}
+.my_footer p {
+padding-top : 20px;
+font-size:14px;
+}
+
+.table my_custom_table {
+min-width:400px;
+font-size:14px;
+}
+
+.my_row_class {
+padding-top :15px;
+}
+
+.my_row_class .mx_auto {
+color:#228B22F;
+font-size:20px;
+}
+
+.my_image {
+width:100%;
+height:100%;
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+.my_title {
+font-size:24px;
+text-transform:uppercase;
+letter-spacing:.2em;
+}
+
+.my_image_padding {
+padding:5px;
+}
+
+.my_bottom_margin {
+margin-bottom:10px;
+}
+
+.card-body h4 {
+font-size:14px;
+text-transform:uppercase;
+letter-spacing:.2em;
+}
+
+.my_prod_row_class {
+padding-top:15px;
+padding-bottom:20px
+}
+
+.my_prod_row_class .mx_auto {
+color:#000;
+ font-size:17px;
+text-decoration:none;
+}
+
+.my_prod_title {
+font-size:24px;
+text-transform:uppercase;
+letter-spacing:.2em;
+padding-top:15px
+padding-bottom:10px;
+}
+
+.my_prod_text {
+padding-right:20px;
+}
+
+.my_search_text {
+padding-top:20px;
+}
+
+.my_custom_thead {
+font-weight:normal;
+text-transform:uppercase;
+letter-spacing:.2em;
+background-color:#f8f8fa!important;
+}
+
+.custom_a {
+text-decoration:none;
+}
+
+.custom_icon {
+text-decoration:none;
+color:#868e96 !important;
+}
+
+.my_custom_button{
+margin-top:5px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: Gray;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 30px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
